@@ -12,18 +12,17 @@
 
 #### 1.将频道的信息**什么都不勾选**导出，导出两次，第一次是**html**格式，第二次是**json**格式
 
-![image-20230625211737161](C:\Users\cr\AppData\Roaming\Typora\typora-user-images\image-20230625211737161.png)
+![b296dc5cc0804b8968278cc1413e4166.png](https://i2.mjj.rip/2023/06/25/b296dc5cc0804b8968278cc1413e4166.png)
 
 #### 2.修改 `SwithFilesName.py` ，将file的值修改为html的位置，如果导出了多个html，则运行一次改一次。这时你目录下应该有一个`文件名称和id.csv`文件，里面的内容即为你频道内的文件信息。
 
-![image-20230625212225360](C:\Users\cr\AppData\Roaming\Typora\typora-user-images\image-20230625212225360.png)
+![72abff01b48589cdf98988ec2760fcae.png](https://i2.mjj.rip/2023/06/25/72abff01b48589cdf98988ec2760fcae.png)
 
 #### 3.修改`AddTextToJson.py`，只需要将`json_filename`的值修改为你先前频道导出的json文件位置即可，修改后运行。
 
-![image-20230625213134769](C:\Users\cr\AppData\Roaming\Typora\typora-user-images\image-20230625213134769.png)
+![86bc5e8c62c02d140217cb712e49bdec.png](https://i2.mjj.rip/2023/06/25/86bc5e8c62c02d140217cb712e49bdec.png)
 
 #### 4.使用`Searchx`[导入上一步骤的](https://github.com/iyear/searchx/blob/master/docs/bot/README.zh.md)`new_data.json`,然后运行bot，也就可以检索到文件名称了。
-
 
 
 
