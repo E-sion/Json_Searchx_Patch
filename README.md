@@ -2,6 +2,7 @@
 
 修改Telegram导出的频道json文件，搭配Searchx实现群组内文件名称检索功能
 
+**Searchx : https://github.com/iyear/searchx**
 ## 🎈介绍
 
 由于Searchx无法检索到名称，本项目则是用偏手动的方式来修改Telegram导出的json文件，再使用Searchx导入修改后的json，以实现让bot检索的内容包括到群内文件名称。
