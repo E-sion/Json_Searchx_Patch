@@ -4,13 +4,13 @@ import csv
 
 # 文件导出json
 # 把result.json修改为导出的文件位置。
-json_filename = "result.json"
+json_filename = r"result.json"
 
 # 文件名称csv ，不需要更改。
-csv_filename = "文件名称和id.csv"
+csv_filename = r"文件名称和id.csv"
 
 # 导出后的json文件
-new_data = "new_data.json"
+new_data = r"new_data.json"
 
 
 # 读取json文件的内容，存储在一个字典中
