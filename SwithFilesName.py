@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import csv
 
 # 修改file名称为导出的html文件，有多个文件则运行一次改一次~
-# 例如：file = "messages2.html"
+# 例如：file = r"messages2.html"
 
-file = ""
+file = r""
 
 
 def Name_ID_csv(file):
